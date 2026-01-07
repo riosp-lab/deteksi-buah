@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+ENV/
+.DS_Store
+
+# Streamlit
+.streamlit/
+
+# Model artifacts (do not commit)
+saved_model.pb
+variables/
+assets/
+model.zip
+fruit_scan_model/
+
+# OS
+Thumbs.db
